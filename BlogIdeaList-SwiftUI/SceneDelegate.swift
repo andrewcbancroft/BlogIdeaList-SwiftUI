@@ -22,7 +22,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use a UIHostingController as window root view controller
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: ContentView())
+            
+            // ✴️ Get the managedObjectContext from the persistent container
+            let managedObjectContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+            
+            // ✴️ Pass it to the ContentView through the managedObjectContext @Environment variable
+            let contentView = ContentView()
+                                .environment(\.managedObjectContext, managedObjectContext)
+            
+            window.rootViewController = UIHostingController(rootView: contentView)
+            
             self.window = window
             window.makeKeyAndVisible()
         }

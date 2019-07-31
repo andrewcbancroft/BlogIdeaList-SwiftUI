@@ -14,6 +14,7 @@
 		CE676F4622F0B74F006141D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE676F4522F0B74F006141D1 /* Assets.xcassets */; };
 		CE676F4922F0B74F006141D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE676F4822F0B74F006141D1 /* Preview Assets.xcassets */; };
 		CE676F4C22F0B74F006141D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE676F4A22F0B74F006141D1 /* LaunchScreen.storyboard */; };
+		CE676F5422F0B7F1006141D1 /* BlogIdea.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE676F5322F0B7F1006141D1 /* BlogIdea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE676F4822F0B74F006141D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE676F4B22F0B74F006141D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE676F4D22F0B74F006141D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE676F5322F0B7F1006141D1 /* BlogIdea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogIdea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				CE676F4522F0B74F006141D1 /* Assets.xcassets */,
 				CE676F4A22F0B74F006141D1 /* LaunchScreen.storyboard */,
 				CE676F4D22F0B74F006141D1 /* Info.plist */,
+				CE676F5322F0B7F1006141D1 /* BlogIdea.swift */,
 				CE676F4022F0B74F006141D1 /* BlogIdeaList_SwiftUI.xcdatamodeld */,
 				CE676F4722F0B74F006141D1 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE676F5422F0B7F1006141D1 /* BlogIdea.swift in Sources */,
 				CE676F3D22F0B74F006141D1 /* AppDelegate.swift in Sources */,
 				CE676F4222F0B74F006141D1 /* BlogIdeaList_SwiftUI.xcdatamodeld in Sources */,
 				CE676F4422F0B74F006141D1 /* ContentView.swift in Sources */,

@@ -35,6 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data stack
 
+    // ✴️ This is the out-of-the-box Core Data stack initialization code
     lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
