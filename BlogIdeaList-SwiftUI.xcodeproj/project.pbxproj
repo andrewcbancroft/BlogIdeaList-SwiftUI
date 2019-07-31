@@ -41,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE44E4B722F1AD0000BE2EDD /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				CE676F4022F0B74F006141D1 /* BlogIdeaList_SwiftUI.xcdatamodeld */,
+				CE676F5322F0B7F1006141D1 /* BlogIdea.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
 		CE676F3022F0B74F006141D1 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +69,13 @@
 		CE676F3B22F0B74F006141D1 /* BlogIdeaList-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				CE44E4B722F1AD0000BE2EDD /* Core Data */,
 				CE676F3C22F0B74F006141D1 /* AppDelegate.swift */,
 				CE676F3E22F0B74F006141D1 /* SceneDelegate.swift */,
 				CE676F4322F0B74F006141D1 /* ContentView.swift */,
 				CE676F4522F0B74F006141D1 /* Assets.xcassets */,
 				CE676F4A22F0B74F006141D1 /* LaunchScreen.storyboard */,
 				CE676F4D22F0B74F006141D1 /* Info.plist */,
-				CE676F5322F0B7F1006141D1 /* BlogIdea.swift */,
-				CE676F4022F0B74F006141D1 /* BlogIdeaList_SwiftUI.xcdatamodeld */,
 				CE676F4722F0B74F006141D1 /* Preview Content */,
 			);
 			path = "BlogIdeaList-SwiftUI";
