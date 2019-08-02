@@ -65,8 +65,9 @@ struct ContentView: View {
                     }
                 }
                 .font(.headline)
-                
-                
+
+
+
                 Section(header: Text("Blog Ideas")) {
                     ForEach(self.blogIdeas) { blogIdea in
                         NavigationLink(destination: EditView(blogIdea: blogIdea)) {
@@ -94,6 +95,8 @@ struct ContentView: View {
                 .font(.headline)
             }
             .listStyle(GroupedListStyle())
+            .navigationBarTitle(Text("Blog Idea List"))
+            .navigationBarItems(trailing: EditButton())
         }
     }
 }
