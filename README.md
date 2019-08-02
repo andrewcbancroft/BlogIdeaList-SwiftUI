@@ -12,8 +12,8 @@ It's a single-view app that can
 * Use the new `@FetchRequest` property wrapper to fetch `BlogIdea`s
 * Use the `@Environment`'s `managedObjectContext` to create, update, and delete `BlogIdea`s
 
-This sample code project is associated [Using Core Data With SwiftUI - An Introduction
-](https://www.andrewcbancroft.com/blog/ios-development/data-persistence/using-core-data-with-swiftui-introduction/).
+This sample code project is associated with [Using Core Data With SwiftUI - An Introduction
+](https://www.andrewcbancroft.com/blog/ios-development/data-persistence/using-core-data-with-swiftui-introduction/) at [andrewcbancroft.com](https://www.andrewcbancroft.com).
 
 Within the code,
 
