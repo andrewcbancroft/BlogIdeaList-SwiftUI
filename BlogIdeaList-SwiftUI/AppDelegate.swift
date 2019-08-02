@@ -5,6 +5,9 @@
 //  Created by Andrew Bancroft on 7/30/19.
 //  Copyright © 2019 Andrew Bancroft. All rights reserved.
 //
+// ❇️ Alerts you to Core Data pieces
+// ℹ️ Alerts you to general info about what my brain was thinking when I wrote the code
+//
 
 import UIKit
 import CoreData
@@ -35,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data stack
 
-    // ✴️ This is the out-of-the-box Core Data stack initialization code
+    // ❇️ This is the out-of-the-box Core Data stack initialization code
     lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation

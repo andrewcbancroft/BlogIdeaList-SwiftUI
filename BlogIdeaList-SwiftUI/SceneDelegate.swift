@@ -5,6 +5,9 @@
 //  Created by Andrew Bancroft on 7/30/19.
 //  Copyright © 2019 Andrew Bancroft. All rights reserved.
 //
+// ❇️ Alerts you to Core Data pieces
+// ℹ️ Alerts you to general info about what my brain was thinking when I wrote the code
+//
 
 import UIKit
 import SwiftUI
@@ -23,10 +26,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             
-            // ✴️ Get the managedObjectContext from the persistent container
+            // ❇️ Get the managedObjectContext from the persistent container
             let managedObjectContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
             
-            // ✴️ Pass it to the ContentView through the managedObjectContext @Environment variable
+            // ❇️ Pass it to the ContentView through the managedObjectContext @Environment variable
             let contentView = ContentView()
                                 .environment(\.managedObjectContext, managedObjectContext)
             
