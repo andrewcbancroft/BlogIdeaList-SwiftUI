@@ -19,6 +19,7 @@ public class BlogIdea: NSManagedObject, Identifiable {
 }
 
 extension BlogIdea {
+    // ❇️ The @FetchRequest property wrapper in the ContentView will call this function
     static func allIdeasFetchRequest() -> NSFetchRequest<BlogIdea> {
         let request: NSFetchRequest<BlogIdea> = BlogIdea.fetchRequest() as! NSFetchRequest<BlogIdea>
         

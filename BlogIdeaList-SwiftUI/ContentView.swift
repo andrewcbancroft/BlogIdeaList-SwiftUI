@@ -16,7 +16,7 @@ struct ContentView: View {
     // ❇️ Core Data property wrappers
     @Environment(\.managedObjectContext) var managedObjectContext
     
-    // ❇️ The BlogIdea class has an `allIdeasFetchRequest` function that can be used here
+    // ❇️ The BlogIdea class has an `allIdeasFetchRequest` static function that can be used here
     @FetchRequest(fetchRequest: BlogIdea.allIdeasFetchRequest()) var blogIdeas: FetchedResults<BlogIdea>
     
     // ℹ️ Temporary in-memory storage for adding new blog ideas
