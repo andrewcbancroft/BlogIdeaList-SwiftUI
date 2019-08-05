@@ -13,12 +13,10 @@ import Foundation
 import CoreData
 
 // ❇️ BlogIdea code generation is turned OFF in the xcdatamodeld file
-public class BlogIdea: NSManagedObject {
+public class BlogIdea: NSManagedObject, Identifiable {
     @NSManaged public var ideaTitle: String?
     @NSManaged public var ideaDescription: String?
 }
-
-extension BlogIdea: Identifiable {}
 
 extension BlogIdea {
     // ❇️ The @FetchRequest property wrapper in the ContentView will call this function
