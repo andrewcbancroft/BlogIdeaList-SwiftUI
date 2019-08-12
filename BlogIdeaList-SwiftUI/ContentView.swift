@@ -69,6 +69,9 @@ struct ContentView: View {
 
 
                 Section(header: Text("Blog Ideas")) {
+                    // 🚨 The UI doesn't seem to want to update if you update a blog idea more than once.
+                    // If you change the ForEach below to ForEach(self.blogIdeas, id: \.ideaTitle), it will work,
+                    // but this feels "wrong"...
                     ForEach(self.blogIdeas) { blogIdea in
                         NavigationLink(destination: EditView(blogIdea: blogIdea)) {
                             VStack(alignment: .leading) {
