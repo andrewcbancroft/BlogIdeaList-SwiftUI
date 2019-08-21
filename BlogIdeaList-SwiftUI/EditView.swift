@@ -55,7 +55,7 @@ struct EditView: View {
                         print(error)
                     }
                     
-                    self.presentationMode.value.dismiss()
+                    self.presentationMode.wrappedValue.dismiss()
                 })) {
                     Text("Save")
                 }
