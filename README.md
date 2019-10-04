@@ -1,7 +1,11 @@
 # Using Core Data With SwiftUI - An Introduction
 
-This sample code project is associated with [Using Core Data With SwiftUI - An Introduction
-](https://www.andrewcbancroft.com/blog/ios-development/data-persistence/using-core-data-with-swiftui-introduction/) at [andrewcbancroft.com](https://www.andrewcbancroft.com).
+This sample code project is associated with the following guides  at [andrewcbancroft.com](https://www.andrewcbancroft.com):
+
+* [Using Core Data With SwiftUI - An Introduction
+](https://www.andrewcbancroft.com/blog/ios-development/data-persistence/using-core-data-with-swiftui-introduction/)
+* [How to Pass NSManagedObjectContext to a SwiftUI View](https://www.andrewcbancroft.com/blog/ios-development/data-persistence/passing-nsmanagedobjectcontext-to-swiftui-view/)
+* [How to Use @FetchRequest in SwiftUI](https://www.andrewcbancroft.com/blog/ios-development/data-persistence/how-to-use-fetchrequest-swiftui/)
 
 ## Overview
 
