@@ -69,7 +69,7 @@ struct ContentView: View {
 
 
                 Section(header: Text("Blog Ideas")) {
-                    ForEach(self.blogIdeas, id:\.self) { blogIdea in
+                    ForEach(self.blogIdeas) { blogIdea in
                         NavigationLink(destination: EditView(blogIdea: blogIdea)) {
                             VStack(alignment: .leading) {
                                 Text(blogIdea.ideaTitle ?? "")
