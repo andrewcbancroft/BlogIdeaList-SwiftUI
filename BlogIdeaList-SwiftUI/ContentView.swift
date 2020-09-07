@@ -104,7 +104,14 @@ struct ContentView: View {
 #if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let blogIdea = BlogIdea.init(context: context)
+        blogIdea.ideaTitle = "Idea 1"
+        blogIdea.ideaDescription = "The first idea."
+        
+        return ContentView()
             .environment(\.managedObjectContext, (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext)
     }
 }
